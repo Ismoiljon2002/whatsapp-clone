@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html, body {
+  height: 100vh !important;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+.css-mhc70k-MuiGrid-root {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.css-1du0d8-MuiGrid-root {
+  flex-basis: calc(75% - 16px) !important;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.home-page, .login-page {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+/* ====  SCROLLBAR === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(4, 0, 33, 0.5490196078);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #16148e;
+  border-radius: 3.5px;
+  height: 100px !important;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8117647059);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0400ff;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.MuiGrid-item {
+  padding: 0 !important;
+}
+
+.account-info {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(4, 0, 33, 0.5490196078);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.chat-box-component {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/wallpaper.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.chat-container {
+  overflow: auto;
+  max-height: 100%;
+  padding: 100px 5% 150px;
+}
+
+.message-card {
+  max-width: 70%;
+  display: inline-block !important;
+  background: rgba(137, 28, 174, 0.7411764706);
+  border-radius: 20px;
+  color: #040021;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px 0;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+.message-card .muted-text {
+  font-size: 14px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.8117647059);
+}
+.message-card.by-self {
+  float: right;
+  background-color: rgba(2, 166, 144, 0.6588235294);
+}
+
+.chat-bottom-container {
+  position: fixed;
+  bottom: 0;
+  width: 75%;
+  height: 150px;
+  padding: 10px 5% 20px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.chat-bottom-container .MuiInputBase-root {
+  border-radius: 50px !important;
+}
+.chat-bottom-container #outlined-multiline-flexible {
+  line-height: 1.3;
+  padding: 0px 30px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+.chat-bottom-container .send-btn {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  width: 15% !important;
+  background-color: rgb(0, 165, 0);
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin: 7px 0 0 30px;
+}/*# sourceMappingURL=ChatBox.css.map */

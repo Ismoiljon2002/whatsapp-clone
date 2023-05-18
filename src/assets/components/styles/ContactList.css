@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html, body {
+  height: 100vh !important;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+.css-mhc70k-MuiGrid-root {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.css-1du0d8-MuiGrid-root {
+  flex-basis: calc(75% - 16px) !important;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.home-page, .login-page {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+/* ====  SCROLLBAR === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(4, 0, 33, 0.5490196078);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #16148e;
+  border-radius: 3.5px;
+  height: 100px !important;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8117647059);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0400ff;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.contact-list-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 80px;
+  background-color: #11114c;
+  overflow-y: auto;
+}
+
+.contact-list-header {
+  position: fixed;
+  width: 25%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 80px;
+  padding: 0 20px;
+  background-color: rgba(4, 0, 33, 0.5490196078);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+}
+.contact-list-header--content {
+  display: flex;
+  align-items: center;
+}
+.contact-list-header--content #free-solo-2-demo {
+  padding: 2px 8px !important;
+  color: #fff;
+}
+.contact-list-header--content .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root,
+.contact-list-header--content .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+  color: aliceblue !important;
+}
+.contact-list-header--content .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 30px;
+}
+.contact-list-header--content .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root:hover {
+  box-shadow: inset 0 0 5px #fff, 0 0 3px #fff;
+}
+.contact-list-header--content .MuiAutocomplete-root {
+  margin: 0 20px;
+  background-color: rgb(0, 0, 255);
+  border-radius: 30px;
+  outline: none;
+}
+.contact-list-header--content .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  background-color: #0400ff;
+  color: #fff;
+}
+.contact-list-header--content .css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover {
+  box-shadow: inset 0 0 5px #fff, 0 0 3px #fff;
+}
+
+.contact-component {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 70px 10px 20px;
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 1px solid #16148e;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.contact-component:hover {
+  background-color: #16148e;
+  box-shadow: inset 0 0 5px #ffffff;
+}
+.contact-component--content {
+  margin-left: 20px;
+}
+.contact-component--content > p {
+  font-size: 14px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.8117647059);
+  text-align: left;
+}
+.contact-component .time {
+  top: 50%;
+  right: 20px;
+  position: absolute;
+  transform: translateY(-50%);
+  font-size: 14px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.8117647059);
+}/*# sourceMappingURL=ContactList.css.map */

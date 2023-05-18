@@ -1,0 +1,92 @@
+
+// Google Poppins font
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+html, body {
+  height: 100vh !important;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+// below is grid class
+.css-mhc70k-MuiGrid-root {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+// below is chat-box grid class
+.css-1du0d8-MuiGrid-root {
+  flex-basis: calc(75% - 16px) !important;
+}
+
+.clr {clear: both;}
+
+a {text-decoration: none !important;}
+
+// Colors
+$base-dark: #0400218c;
+$light-blue: #0400ff;
+
+.home-page, .login-page {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin setBgImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@mixin dCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin mutedText {
+  font-size: 14px;
+  text-align: right;
+  color: #ffffffcf;
+}
+
+/* ====  SCROLLBAR === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $base-dark;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #16148e;
+  border-radius: 3.5px;
+  height: 100px !important;
+  box-shadow: 0 0 5px #ffffffcf;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $light-blue;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
