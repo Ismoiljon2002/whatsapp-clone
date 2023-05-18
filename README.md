@@ -7,6 +7,6 @@
 ### 2. cd whatsapp-clone
 ### 3. npm install 
 ### 4. npm run dev 
-### 5. open [localhost:](http://localhost:5173/) on Your browser
+### 5. open localhost:http://localhost:5173/ on Your browser
 
 ## Happy Hacking!!
